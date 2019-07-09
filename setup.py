@@ -10,5 +10,4 @@ setup(name='html2csv',
       install_requires = ['BeautifulSoup4'],
       license="WTFPL",
       scripts=['html2csv.py'],
-      packages=['html2csv']
 )
