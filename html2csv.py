@@ -32,9 +32,7 @@ def _main():
 
 def main():
     try:
-        main()
+        _main()
     except IndexError:
         print("No URL Given.")
-
-
-
+main()
