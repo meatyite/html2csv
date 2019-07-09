@@ -30,9 +30,11 @@ def _main():
     if table_count == 0:
         print('No tables found on {}.'.format(url))
 
-
 def main():
     try:
         main()
     except IndexError:
         print("No URL Given.")
+
+
+
